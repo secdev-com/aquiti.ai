@@ -1,0 +1,38 @@
+{{ "<!-- BEGIN THE WORLD IN DATA CONTENT -->" | safeHTML }}
+<section class="twid-content" id="twid">
+	<div class="wrapper row">
+        <div class="text-center">
+            <h2 class="fw-700 section-title line-height-1">{{ .Site.Params.twid.twidTitle | markdownify }}</h2>
+        </div>
+	
+        <div class="row small-12 medium-up-3">
+            <div class="column centralize">
+                <div class="circle effect">
+                    <div class="circle-content text-center font-22">
+                        {{ .Site.Params.twid.contentOne1 | markdownify }}
+                        <span style="color: red; font-size: 24px; font-weight: 600;">{{ .Site.Params.twid.contentOne2 | markdownify }}</span>
+                        {{ .Site.Params.twid.contentOne3 | markdownify }}
+                    </div>
+                </div>
+            </div>
+            <div class="column centralize">
+                <div class="circle effect">
+                    <div class="circle-content text-center font-22">
+                        {{ .Site.Params.twid.contentTwo1 | markdownify }}
+                        <span style="color: red; font-size: 24px; font-weight: 600;">{{ .Site.Params.twid.contentTwo2 | markdownify }}</span>
+                        {{ .Site.Params.twid.contentTwo3 | markdownify }}
+                    </div>
+                </div>
+            </div>
+            <div class="column centralize">
+                <div class="circle effect">
+                    <div class="circle-content text-center font-22">
+                        {{ .Site.Params.twid.contentThree1 | markdownify }}
+                        <span style="color: red; font-size: 24px; font-weight: 600;">{{ .Site.Params.twid.contentThree2 | markdownify }}</span>
+                        {{ .Site.Params.twid.contentThree3 | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+</section> {{ "<!-- END THE WORLD IN DATA CONTENT -->" | safeHTML }}

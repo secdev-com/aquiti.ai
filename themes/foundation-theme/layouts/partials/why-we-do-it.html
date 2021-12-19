@@ -1,0 +1,25 @@
+{{ "<!-- BEGIN WHY WE DO IT CONTENT -->" | safeHTML }}
+<section class="wwdi-content" id="wwdi">
+	<div class="wrapper row">
+        <div class="small-12 medium-12 column content-one">
+            
+                <div class="text-center title">
+                    <h2 class="fw-700 section-title">{{ .Site.Params.wwdi.wwdiTitle | markdownify }}</h2>
+                </div>
+
+                <div class="wwdi-inner-content">
+                    <div class="small-12 medium-6 column wwdi-content-one font-26">
+                    
+                        <p class="line-height-13">{{ .Site.Params.wwdi.contentOne | markdownify }}</p>
+                    </div>
+                    <div class="small-12 medium-6 column wwdi-content-two font-22">
+                    
+                        <p class="line-height-15">{{ .Site.Params.wwdi.contentTwo1 | markdownify }}</p>
+                        <p  class="line-height-15">{{ .Site.Params.wwdi.contentTwo2 | markdownify }}</p>
+                        <p  class="line-height-15">{{ .Site.Params.wwdi.contentTwo3 | markdownify }}</p>
+                    </div>
+                </div>
+        </div>
+	
+	</div>
+</section> {{ "<!-- END WHY WE DO IT CONTENT -->" | safeHTML }}

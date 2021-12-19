@@ -1,0 +1,22 @@
+{{ "<!-- BEGIN MAIN CONTENT -->" | safeHTML }}
+<section class="about-content" id="about">
+	<div class="wrapper row">
+        <div class="centralize text-center">
+            <div class="small-12 medium-8 column content-one">
+                <div class="title">
+                    <h2 class="fw-700 section-title">{{ .Site.Params.about.aboutTitle }}</h2>
+                </div>
+
+                <div class="row expanded">
+                    <p class="about-content-one font-22">{{ .Site.Params.about.contentOne }}</p>
+                </div>
+
+                <div>
+                    <p class="about-content-two font-22">{{ .Site.Params.about.contentTwo }}</p>
+                </div>
+
+                <!-- <div class="about-image"></div> -->
+            </div>
+        </div>
+	</div>
+</section> {{ "<!-- END MAIN CONTENT -->" | safeHTML }}

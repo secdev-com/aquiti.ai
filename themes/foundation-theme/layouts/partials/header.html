@@ -1,0 +1,20 @@
+{{ "<!-- BEGIN HEADER PANEL -->" | safeHTML }}
+
+<section class="header-panel" id="home">
+	<div class="wrapper">
+		<div class="row text-center">
+			<div class="header-content small-12 medium-12 column">
+				<div class="header-image">
+					
+				</div>
+				<h1 class="header-title fw-700 site-title">
+					[{{ .Site.Params.header.title1 }}.<span class="header-title-end">{{ .Site.Params.header.title2 }}</span>]
+				</h1>
+				<div class="section-content">
+					<div>{{ .Site.Params.header.discription1 }}</div>
+					<div>{{ .Site.Params.header.discription2 }}</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> {{ "<!-- END HEADER PANEL -->" | safeHTML }}

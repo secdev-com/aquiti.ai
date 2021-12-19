@@ -1,0 +1,73 @@
+{{ "<!-- BEGIN WHAT WE DO CONTENT -->" | safeHTML }}
+<section class="wwd-content" id="wwd">
+	<div class="wrapper row">
+        <div class="small-12 medium-12 column content-one">
+            
+                <div class="text-center title">
+                    <h2 class="fw-700 section-title">{{ .Site.Params.wwd.wwdTitle | markdownify }}</h2>
+                </div>
+
+                <div class="row expanded">
+                    <div class="center">
+                        <div class="small-12 medium-12 large-12 column text-center section-content">
+                            <p class="line-height-13">{{ .Site.Params.wwd.content | markdownify }}</p>
+                        </div>
+                    </div>
+                    
+                        
+                        <div class="row wwd-row-1 ml-100">
+                            <div class="column medium-6 small-12">
+                                <div class="row-item">
+                                    <div class="item-number">
+                                        {{ .Site.Params.wwd.row11Number | markdownify }}
+                                    </div>
+                                    <div class="item-content font-22">
+                                        <div class="item-title">{{ .Site.Params.wwd.row11Title | markdownify }}</div>
+                                        <div class="item-text">{{ .Site.Params.wwd.row11Content | markdownify }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column medium-6 small-12">
+                                <div class="row-item">
+                                    <div class="item-number">
+                                        {{ .Site.Params.wwd.row12Number | markdownify }}
+                                    </div>
+                                    <div class="item-content font-22">
+                                        <div class="item-title">{{ .Site.Params.wwd.row12Title | markdownify }}</div>
+                                        <div class="item-text">{{ .Site.Params.wwd.row12Content | markdownify }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row wwd-row-2">
+                            <div class="column medium-6 small-12">
+                                <div class="row-item">
+                                    <div class="item-number">
+                                        {{ .Site.Params.wwd.row21Number | markdownify }}
+                                    </div>
+                                    <div class="item-content font-22">
+                                        <div class="item-title">{{ .Site.Params.wwd.row21Title | markdownify }}</div>
+                                        <div class="item-text">{{ .Site.Params.wwd.row21Content | markdownify }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column medium-6 small-12">
+                                <div class="row-item">
+                                    <div class="item-number">
+                                        {{ .Site.Params.wwd.row22Number | markdownify }}
+                                    </div>
+                                    <div class="item-content font-22">
+                                        <div class="item-title">{{ .Site.Params.wwd.row22Title | markdownify }}</div>
+                                        <div class="item-text">{{ .Site.Params.wwd.row22Content | markdownify }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+               </div>
+        </div>
+	
+	</div>
+</section> {{ "<!-- END WHY WE DO CONTENT -->" | safeHTML }}

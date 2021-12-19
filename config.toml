@@ -1,0 +1,95 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'aQuiti.ai'
+theme = "foundation-theme"
+
+[params.header]
+title1 = "aQuiti"
+title2 = "ai"
+discription1 = "Small data can have a big impact."
+discription2 = "We apply chaos theory to data science by curating precision data feeds tailored to next generation finance and risk-based industries."
+
+
+[params.main]
+contentOneTitle = "Easy to use"
+contentTwoTitle = "See Gary's Tutorial"
+contentOneBody = "A simple and easy to use hugo theme that anyone can expand and develop further. The design was ported to a Hugo Theme from the youtube video series posted by Gary Jennings. You can easily change the layout of this section in the main.html partial in the themes dir"
+contentTwoBody = "You can see Gary's tutorial [here:](https://www.youtube.com/watch?v=2QcpR6cHpnk) *Markdown* can be used in these two panels to quickly **style** content."
+
+[params.wwd]
+wwdTitle = "WHAT WE DO"
+content = "Aquiti is where chaos theory meets data science. We seek the Butterfly Effect - data that is accurate, timely and highly consequential."
+row11Number = "1"
+row11Title = "Find"
+row11Content = "We discover unique and rare data"
+row12Number = "2"
+row12Title = "Mine"
+row12Content = "We collect and curate data sources"
+row21Number = "3"
+row21Title = "Refine"
+row21Content = "We enrich data to high standards of accuracy"
+row22Number = "4"
+row22Title = "Deliver"
+row22Content = "We tailor data feeds to our customers exacting needs"
+
+[params.wwdi]
+wwdiTitle = "WHY WE DO IT"
+contentOne = "Financial marker and risk-based industries need highly accurate data to make timely decisions. Data services are plentiful but the accuracy of their data is not."
+contentTwo1 = "In a complex, interconnected and global economy, speed and accurary are vital."
+contentTwo2 = "Small changes can lead to big consequences. Trusting your data is critical. Even the smartest system make mistakes if the data and models driving them are flawed and biased."
+contentTwo3 = "Next generation AI needs exceptionally accurate data to drive faster-than-real-time decision-making."
+
+[params.twid]
+twidTitle = "THE WORLD IN DATA"
+contentOne1 = "Global data will grow " 
+contentOne2 = "2X"
+contentOne3 = "between 2022 to 2025 to 181 Zetabytes"
+contentTwo1 = "AI software markets will grow"
+contentTwo2 = "4X"
+contentTwo3 = "by 2025 to $120 billion"
+contentThree1 = "AI markets revenues will rise"
+contentThree2 = "2X"
+contentThree3 = "by 2024 to $560 billion"
+
+[params.about]
+aboutTitle = "ABOUT US"
+contentOne = "Created by SecDec with the mission to capture, transform, and qualitfy data into machine-readable intelligence that fuels AI and smarter decision-making for next generation financial and risk-based industries."
+contentTwo = "aQuiti.ai is an early stage stealth startup."
+
+[params.footer]
+footerTitle = "CONTACT US"
+email = "future@aquiti.ai"
+addressOne = "950 Gladstone - Ottawa, Ontario"
+addressTwo = "Ottawa, Ontario"
+extraInfo = "K1Y 3E6"
+privacyPolicy = "Privacy policy"
+
+[[menu.main]]
+weight = "1"
+name = "HOME"
+url = "#home"
+
+[[menu.main]]
+weight = "2"
+name = "WHAT WE DO"
+url = "#wwd"
+
+[[menu.main]]
+weight = "3"
+name = "WHY WE DO IT"
+url = "#wwdi"
+
+[[menu.main]]
+weight = "4"
+name = "THE WORLD IN DATA"
+url = "#twid"
+
+[[menu.main]]
+weight = "5"
+name = "ABOUT US"
+url = "#about"
+
+[[menu.main]]
+weight = "6"
+name = "CONTACT US"
+url = "#contact"

@@ -1,0 +1,29 @@
+{{ "<!-- BEGIN MAIN CONTENT -->" | safeHTML }}
+<section class="location-content">
+    <div class="wrapper row expanded small-up-1 medium-up-3">
+		
+		<div class="row expanded text-center text-white">
+					
+					<h2 class="fw-700 section-title">{{ .Site.Params.footer.footerTitle }}</h2>
+			
+					<div class="row text-white font-22">{{ .Site.Params.footer.email }}</div>
+					<div class="row text-white font-22">{{ .Site.Params.footer.addressOne }}</div>
+					
+								
+					<br >
+<!-- 
+					<div class="row expanded">
+						<div class="row expanded text-center">
+							<div class="row medium-2 text-center">
+								<a class="contact-policy">{{ .Site.Params.footer.privacyPolicy }}</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="about-image"></div>
+
+					<div class="about-logo"></div> -->
+		</div>	
+
+	</div>
+</section> {{ "<!-- END MAIN CONTENT -->" | safeHTML }}
